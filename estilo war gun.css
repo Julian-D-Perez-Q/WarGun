@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+    background-color: #404258;
+}
+
+#elejir-arma{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#elejir-ataque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    display: none;
+}
+.tarjetas{
+    background-color: #ADE792;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img{
+    width: 80px;
+}
+
+input:checked + label{
+    background-color: aqua;
+    box-shadow: 6px 7px;
+}
+
+.atac{
+    margin: 8px;
+    box-shadow: 6px 8px;
+}
+
+#selecciona-arma{
+    box-shadow: 8px 7px;
+    width: 120px;
+    height: 80px;
+}
+
+#volver-jugar{
+    box-shadow: 7px 7px;
+}
+
+button{
+    background-color: #434242;
+}
